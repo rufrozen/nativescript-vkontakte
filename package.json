@@ -1,0 +1,25 @@
+{
+    "name": "nativescript-vkontakte",
+    "version": "0.1.0",
+    "description": "A VKontakte NativeScript module for Android and iOS",
+    "main": "index.js",
+    "nativescript": {
+        "platforms": {
+            "android": "1.2.0"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rufrozen/nativescript-vkontakte.git"
+    },
+    "keywords": [
+        "NativeScript VKontakte VK"
+    ],
+    "author": "Igor Timurov",
+    "license": {
+        "type": "MIT"
+    },
+    "bugs": {
+        "url": "https://github.com/rufrozen/nativescript-vkontakte/issues"
+    }
+}
