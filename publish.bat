@@ -1,2 +1,2 @@
-npm version patch
-npm publish
+call npm version patch
+call npm publish
