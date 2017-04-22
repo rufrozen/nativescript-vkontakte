@@ -11,9 +11,9 @@ module.exports =
         VKSdk.initialize(application.android.context);
     },
 
-    login: function() 
+    login: function(scope) 
     {
-        VKSdk.login(application.android.foregroundActivity, []);
+        VKSdk.login(application.android.foregroundActivity, scope);
     },
 
     logout: function() 
