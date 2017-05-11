@@ -2,7 +2,7 @@
 export type VKAccessToken = any;
 export type VKError = any;
 
-export function initialize();
+export function initialize(context: any);
 export function onActivityResult(requestCode: number, resultCode: number, data: any, onResult: (token: VKAccessToken) => void, onError: (error: VKError) => void);
 
 export function login(scope: string[]);

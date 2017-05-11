@@ -6,9 +6,9 @@ var VKCallback = com.vk.sdk.VKCallback;
 
 module.exports = 
 {
-    initialize: function() 
+    initialize: function(context) 
     {
-        VKSdk.initialize(application.android.context);
+        VKSdk.initialize(context);
     },
 
     login: function(scope) 

@@ -19,7 +19,8 @@ var vk = require("nativescript-vkontakte");
     {
         superProto.onCreate.call(this);
         // Enter custom initialization code here
-        vk.initialize();
+        var context = this.getApplicationContext();
+        vk.initialize(context);
     },
 ```
 
