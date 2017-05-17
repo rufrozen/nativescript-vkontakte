@@ -1,6 +1,6 @@
 {
   "name": "nativescript-vkontakte",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A VKontakte NativeScript module for Android and iOS",
   "main": "index.js",
   "typings": "index.d.ts",
