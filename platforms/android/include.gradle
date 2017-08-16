@@ -1,0 +1,11 @@
+android { 
+    productFlavors {
+        "nativescript-vkontakte" {
+            dimension "nativescript-vkontakte"
+        }
+    }
+}
+
+dependencies {
+  compile "com.vk:androidsdk:+"  
+}
