@@ -43,16 +43,31 @@ application.android.on('activityResult', data =>
 });
 ```
 
-Add activity to *AndroidManifest.xml*
-
-```xml
-<activity android:name="com.vk.sdk.VKServiceActivity" android:label="ServiceActivity" android:theme="@style/VK.Transparent" />
-```
-
 Add AppID to *strings.xml*
 
 ```xml
 <integer name="com_vk_sdk_AppId">YOUR_APP_ID</integer>
+```
+
+### iOS
+
+Add AppID to *Info.plist*
+```xml
+<key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>vkYOUR_APP_ID</string>
+    </dict>
+</array>
+<key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>vk</string>
+    <string>vk-share</string>
+    <string>vkauthorize</string>
+</array>
 ```
 
 ## Links:
